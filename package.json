@@ -5,17 +5,19 @@
   "main": "dist/index.js",
   "source": "src/index.js",
   "exports": "./dist/foo.modern.js",
-  "module": "dist/foo.module.js",  
-  "unpkg": "dist/foo.umd.js",      
+  "module": "dist/foo.module.js",
+  "unpkg": "dist/foo.umd.js",
   "author": "Kerim Hudson",
   "license": "MIT",
   "scripts": {
-    "test": "tap"
+    "test": "tap",
+    "build": "microbundle"
   },
   "devDependencies": {
     "esm": "^3.2.25",
     "faker": "^5.4.0",
     "microbundle": "^0.13.0",
+    "np": "^7.4.0",
     "tap": "^14.11.0"
   }
 }
