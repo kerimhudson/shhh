@@ -9,6 +9,9 @@
   "unpkg": "dist/foo.umd.js",      
   "author": "Kerim Hudson",
   "license": "MIT",
+  "scripts": {
+    "test": "tap"
+  },
   "devDependencies": {
     "esm": "^3.2.25",
     "faker": "^5.4.0",
