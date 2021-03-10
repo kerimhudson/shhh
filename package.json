@@ -1,14 +1,19 @@
 {
   "name": "@kerimhudson/shhh",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a super simple string hasher",
   "main": "dist/index.js",
-  "source": "src/index.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
   "exports": "./dist/foo.modern.js",
   "module": "dist/foo.module.js",
   "unpkg": "dist/foo.umd.js",
   "author": "Kerim Hudson",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kerimhudson/shhh.git"
+},
   "scripts": {
     "test": "tap",
     "build": "microbundle"
@@ -18,6 +23,7 @@
     "faker": "^5.4.0",
     "microbundle": "^0.13.0",
     "np": "^7.4.0",
-    "tap": "^14.11.0"
+    "tap": "^14.11.0",
+    "typescript": "^4.2.3"
   }
 }
