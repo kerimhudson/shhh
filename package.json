@@ -1,9 +1,9 @@
 {
   "name": "@kerimhudson/shhh",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "a super simple string hasher",
   "main": "dist/index.js",
-  "source": "src/index.ts",
+  "source": "src/index.js",
   "types": "dist/index.d.ts",
   "exports": "./dist/foo.modern.js",
   "module": "dist/foo.module.js",
@@ -16,7 +16,7 @@
 },
   "scripts": {
     "test": "tap",
-    "build": "microbundle"
+    "build": "microbundle --external crypto"
   },
   "devDependencies": {
     "esm": "^3.2.25",
