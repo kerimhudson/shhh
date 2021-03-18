@@ -24,7 +24,7 @@
     "bcrypt"
   ],
   "scripts": {
-    "test": "node -r esbuild-register node_modules/.bin/tap",
+    "test": "tap --no-ts --node-arg=--require=esbuild-register",
     "build": "microbundle --external crypto"
   },
   "devDependencies": {
@@ -35,6 +35,7 @@
     "microbundle": "^0.13.0",
     "np": "^7.4.0",
     "tap": "^14.11.0",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
   }
 }

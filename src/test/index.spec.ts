@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { compare, hash } from '../src'
+import { compare, hash } from '..'
 import { test } from 'tap'
 import faker from 'faker'
 test('hash', t => {
