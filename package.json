@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "description": "a super simple string hasher",
   "main": "dist/index.js",
-  "source": "src/index.js",
+  "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "exports": "./dist/foo.modern.js",
   "module": "dist/foo.module.js",
@@ -13,12 +13,22 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kerimhudson/shhh.git"
-},
+  },
+  "keywords": [
+    "crypto",
+    "password",
+    "hashing",
+    "encryption",
+    "scrypt",
+    "bcrypt"
+  ],
   "scripts": {
-    "test": "tap",
+    "test": "node -r esbuild-register node_modules/.bin/tap",
     "build": "microbundle --external crypto"
   },
   "devDependencies": {
+    "esbuild": "^0.9.3",
+    "esbuild-register": "^2.3.0",
     "esm": "^3.2.25",
     "faker": "^5.4.0",
     "microbundle": "^0.13.0",
