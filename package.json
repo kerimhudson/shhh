@@ -1,13 +1,13 @@
 {
   "name": "@kerimhudson/shhh",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "a super simple string hasher",
   "main": "dist/index.js",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
-  "exports": "./dist/foo.modern.js",
-  "module": "dist/foo.module.js",
-  "unpkg": "dist/foo.umd.js",
+  "exports": "./dist/index.modern.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
   "author": "Kerim Hudson",
   "license": "MIT",
   "repository": {
