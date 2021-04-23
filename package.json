@@ -1,14 +1,10 @@
 {
   "name": "@kerimhudson/shhh",
-  "version": "0.1.0",
-  "type": "module",
+  "version": "0.1.1",
   "description": "a super simple string hasher",
   "main": "dist/index.js",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
-  "exports": "./dist/index.modern.js",
-  "module": "dist/index.module.js",
-  "unpkg": "dist/index.umd.js",
   "author": "Kerim Hudson",
   "license": "MIT",
   "repository": {
@@ -24,7 +20,7 @@
     "bcrypt"
   ],
   "scripts": {
-    "build": "microbundle --target=node --external crypto"
+    "build": "microbundle --target=node --external crypto --format=cjs"
   },
   "devDependencies": {
     "@types/node": "^14.14.41",
