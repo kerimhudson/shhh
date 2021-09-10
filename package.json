@@ -6,6 +6,7 @@
   "type": "module",  
   "module": "dist/shhh.js",
   "main": "dist/shhh.cjs",
+  "types": "dist/shhh.d.ts",
   "author": {
     "name": "Kerim Hudson",
     "email": "code@kerim.sh",
