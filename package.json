@@ -1,6 +1,6 @@
 {
   "name": "@kerimhudson/shhh",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "a password encryption library utilsiing scrypt",
   "source": "src/index.js",
   "type": "module",
