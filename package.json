@@ -1,8 +1,11 @@
 {
   "name": "@kerimhudson/shhh",
-  "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a password encryption library utilsiing scrypt",
+  "source": "src/index.js",
+  "type": "module",  
+  "module": "dist/shhh.js",
+  "main": "dist/shhh.cjs",
   "author": {
     "name": "Kerim Hudson",
     "email": "code@kerim.sh",
@@ -26,16 +29,9 @@
     "bcrypt"
   ],
   "scripts": {
-    "build": "microbundle --target=node --external crypto --format=esm"
+    "build": "microbundle --target=node --external crypto"
   },
   "devDependencies": {
-    "@types/node": "^16.9.1",
-    "esbuild": "^0.9.3",
-    "esbuild-register": "^2.3.0",
-    "esm": "^3.2.25",
-    "faker": "^5.4.0",
-    "microbundle": "^0.13.0",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.3"
+    "microbundle": "^0.13.0"
   }
 }
