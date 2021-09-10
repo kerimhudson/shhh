@@ -1,12 +1,12 @@
 {
   "name": "@kerimhudson/shhh",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "a password encryption library utilsiing scrypt",
   "source": "src/index.js",
-  "type": "module",  
+  "type": "module",
   "module": "dist/shhh.js",
   "main": "dist/shhh.cjs",
-  "types": "dist/shhh.d.ts",
+  "types": "dist/index.d.ts",
   "author": {
     "name": "Kerim Hudson",
     "email": "code@kerim.sh",
